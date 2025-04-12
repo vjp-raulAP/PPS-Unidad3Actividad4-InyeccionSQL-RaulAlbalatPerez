@@ -362,13 +362,19 @@ $conn->close();
 ~~~
 ![](imagenes/sql17.png)
 
-adjunto captura del resultado con éxito
+Adjunto captura del resultado con éxito
 
 
 ![](imagenes/sql18.png)
 
+Introduciendo de nuevo
 
+~~~
+' UNION SELECT NULL, usuario, contrasenya FROM usuarios #
+~~~
+Me sale lo siguiente.
 
+![](imagenes/sql19.png)
 
 
 
